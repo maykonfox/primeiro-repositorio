@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <title>tudo sobre o google glass</title>
+    <link rel="stylesheet" href="../primeiro-repositorio/estilo.css"/>
+    <link rel="stylesheet" href="../primeiro-repositorio/media.css"/>
+</head>
+<script lang="JavaScript" src="../primeiro-repositorio/funcoes.js"></script>
+<body>
+<div id="interface">
+    <header id="cabeçalho">
+        <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </hgroup>
+
+        <img id="icone" src="../primeiro-repositorio/multimidia.png">
+
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li onMouseOver="mudafoto('../primeiro-repositorio/home.png')" onmouseout="mudafoto('../primeiro-repositorio/multimidia.png')"><a href="index.html">Home</a></li>
+                <li onMouseOver="mudafoto('../primeiro-repositorio/especificacoes.png')" onmouseout="mudafoto('../primeiro-repositorio/multimidia.png')"><a href="specs.html">Esecificações</a></li>
+                <li onMouseOver="mudafoto('../primeiro-repositorio/fotos.png')" onmouseout="mudafoto('../primeiro-repositorio/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+                <li onMouseOver="mudafoto('../primeiro-repositorio/multimidia.png')" onmouseout="mudafoto('../primeiro-repositorio/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+                <li onMouseOver="mudafoto('../primeiro-repositorio/contato.png')" onmouseout="mudafoto('../primeiro-repositorio/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="corpo-full">
+        <article id="noticia-principal">
+            <header id="cabeçalho-artigo">
+                <hgroup>
+                    <h3>Google Glass</h3>
+                    <h1>Raio-X no Google Glass</h1>
+                    <h2>por Gustavo Guanabara</h2>
+                    <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                </hgroup>
+            </header>
+        <div id="tv-radio">
+            <audio id ="musica" controls="controls">
+                <source src="../primeiro-repositorio/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                <source src="../primeiro-repositorio/2009-lovers-carvings-bibio.ogg.ogv" type="audio/ogg"/>
+                desculpe mais não foi possível carregar o audio.
+            </audio>
+            <video id="filme" controls="controls" poster="../primeiro-repositorio/video-mini03.jpg">
+                <source src="../primeiro-repositorio/getting-started.mp4" type="video/mp4"/>
+                <source src="../primeiro-repositorio/getting-started.webmvp8.webm" type="video/webm"/>
+                <source src="../primeiro-repositorio/getting-started.theora.ogv" type="video/ogg"/>
+                desculpe mais não foi possível carregar o audio.
+            </video>
+        </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4EvNxWhskf8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+    </section>
+    <footer id="rodape">
+        <p>Copyright &copy;2013 - by Gustavo Guanabara<br/>
+            <a href="http://facebook.com/cursoemvideo" target="_blank">Facebook </a>
+            <a href="https://twiter.com/cursoemvideo" target="_blank"> Twitter </a></p>
+    </footer>
+</div>
+</body>
+</html>
